@@ -9,7 +9,7 @@ const port = process.env.PORT || 5000
 // mongoose.connect( mongoAtlasUri, {useNewUrlParser: true, useUnifiedTopology: true})
 
 app.get('/', (req, res) => {
-  res.send('This is the backend to my strava app!')
+  res.send('This is the backend/frontend to my strava app!')
 })
 
 app.listen(port, () => {
